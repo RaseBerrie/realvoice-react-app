@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|ZCOOL+QingKe+HuangYou');
+
+@font-face {
+	font-family: 'Garet';
+	src: url("lib/web_fonts/Garet/garet-book-webfont.woff") format("woff");
+}
+
+* {
+	margin:0;
+	padding:0;
+	color:#000;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	box-sizing: border-box;
+}
+
+.fn-font {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+.container {
+	width:100%;
+	border-bottom: solid 1px rgba(255, 255, 255, .5);
+}
+
+header {
+	width:100%;
+	height: 50px;
+	display : flex;
+	align-items : center;
+	justify-content: space-between;
+	
+	margin: auto;
+	padding: 0 20px;
+}
+
+#visual {
+	width:100%;
+	height:500px;
+	
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(lib/images/background.jpg);
+	background-size: cover;
+	background-position: 0% 20%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#visual *:not(h5) {
+	color: white;
+}
+
+#visual p {
+	margin: 20px 0;
+}
+
+.cc{
+	width: 100%;
+}
+
+.cc > h5 {
+	text-align: right;
+	font-size:10px;
+	color:rgba(180,180,180,0.6);
+}
+
+.content{
+    outline: 2px dashed #92b0b3;
+    outline-offset:-10px;
+    transition: all .15s ease-in-out;
+	
+    width: 90%;
+	height: 50%;
+    margin: auto;
+    text-align: center;
+	background-color: none;
+	
+	display: table;
+}
+
+.text {
+	display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+@media (min-width: 1024px) {
+	.content{
+		width: 800px
+	}
+}
+
+#intro {
+	padding-top: 40px;
+	width:100%;
+}
+
+.info {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.info > .line {
+	margin: 30px 0 10px 0;
+	line-height: 50px;
+}
+
+.line > h2 {
+	font-family: 'NanumSquareExtraBold';
+	font-size:50px;
+	letter-spacing: .5px;
+}
+
+.line > h3 {
+	font-family: 'NanumSquareLight';
+	font-size:15px;
+	letter-spacing: 2.6px;
+	font-stretch: narrower;
+}
+
+.info > .exp {
+	margin: 0 0 70px;
+}
+
+.info > img {
+	height: 250px;
+	width: 250px;
+}
+
+#blocks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#blocks > .blk {
+	display: flex;
+	width: 400px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.item > h4 {
+	font-family: 'NanumSquareExtraBold';
+	font-size:24px;
+	color:rgba(0,0,0,0.9);
+}
+
+.item > p {
+	color:#555;
+}
+
+.btn {	
+	width:120px;
+	padding: 8px 12px;
+	border:3px solid #ddd;
+	background-color: #244f8f;
+	border-radius: 4px;
+}
+
+.item > h3 {
+	font-family: 'NanumSquareLight';
+	font-size:18px;
+}
+
+.btn:hover {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+}
