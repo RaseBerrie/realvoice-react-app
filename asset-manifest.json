@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RealVoice_ewha/static/css/main.e09fb501.css",
-    "main.js": "/RealVoice_ewha/static/js/main.070504cb.js",
+    "main.css": "/RealVoice_ewha/static/css/main.ad187439.css",
+    "main.js": "/RealVoice_ewha/static/js/main.5930037e.js",
     "static/js/787.4a469494.chunk.js": "/RealVoice_ewha/static/js/787.4a469494.chunk.js",
     "static/media/background.jpg": "/RealVoice_ewha/static/media/background.398905f8fa512cc54791.jpg",
     "static/media/garet-book-webfont.woff": "/RealVoice_ewha/static/media/garet-book-webfont.8dc93fe4aba0c0855b36.woff",
@@ -9,12 +9,12 @@
     "static/media/github.png": "/RealVoice_ewha/static/media/github.987334e9f782cc505f25.png",
     "static/media/speaker.png": "/RealVoice_ewha/static/media/speaker.52b53dfc35bd3161bbd9.png",
     "index.html": "/RealVoice_ewha/index.html",
-    "main.e09fb501.css.map": "/RealVoice_ewha/static/css/main.e09fb501.css.map",
-    "main.070504cb.js.map": "/RealVoice_ewha/static/js/main.070504cb.js.map",
+    "main.ad187439.css.map": "/RealVoice_ewha/static/css/main.ad187439.css.map",
+    "main.5930037e.js.map": "/RealVoice_ewha/static/js/main.5930037e.js.map",
     "787.4a469494.chunk.js.map": "/RealVoice_ewha/static/js/787.4a469494.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e09fb501.css",
-    "static/js/main.070504cb.js"
+    "static/css/main.ad187439.css",
+    "static/js/main.5930037e.js"
   ]
 }
