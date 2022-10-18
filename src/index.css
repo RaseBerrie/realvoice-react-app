@@ -1,13 +1,122 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|ZCOOL+QingKe+HuangYou');
+
+@font-face {
+	font-family: 'Garet';
+	src: url("lib/web_fonts/Garet/garet-book-webfont.woff") format("woff");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+	margin:0;
+	padding:0;
+	color:#000;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	box-sizing: border-box;
+}
+
+.fn-font {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+#visual {
+	width:100%;
+	height:500px;
+	
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(lib/images/background.jpg);
+	background-size: cover;
+	background-position: 0% 20%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#visual * :not(h5) {
+	color: white;
+}
+
+#visual p {
+	margin: 20px 0;
+}
+
+.cc{
+	width: 100%;
+}
+
+.cc > h5 {
+	text-align: right;
+	font-size:10px;
+	color:rgba(180,180,180,0.6);
+}
+
+#form-file-upload {
+    margin: auto;
+	width: 90%;
+	height: 50%;
+  }
+
+#content{
+    outline: 2px dashed #92b0b3;
+    outline-offset:-10px;
+	transition: all .15s ease-in-out;
+	
+    width: 100%;
+	height: 100%;
+    text-align: center;
+	background-color: none;
+	display: table;
+}
+
+#content.drag-active {
+	background-color: rgba(0,0,0,0.8);
+	outline-offset: -20px;
+}
+
+#input-file-upload {
+	display: none;
+  }
+
+.text {
+	display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+@media (min-width: 1024px) {
+	#form-file-upload {
+		width: 800px;
+	}
+
+	#content{
+		width: 800px;
+	}
+}
+
+.btn:hover {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+}
+
+#drag-file-element {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 1rem;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+  }
+
+.btn:hover {
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
 }

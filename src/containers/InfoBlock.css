@@ -1,0 +1,37 @@
+@import url('https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css');
+
+#blocks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#blocks > .blk {
+	display: flex;
+	width: 400px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.item > h4 {
+	font-family: 'NanumSquareExtraBold';
+	font-size:24px;
+	color:rgba(0,0,0,0.9);
+}
+
+.item > p {
+	color:#555;
+}
+
+.btn {	
+	width:120px;
+	padding: 8px 12px;
+	border:3px solid #ddd;
+	background-color: #244f8f;
+	border-radius: 4px;
+}
+
+.item > h3 {
+	font-family: 'NanumSquareLight';
+	font-size:18px;
+}

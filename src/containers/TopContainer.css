@@ -1,0 +1,15 @@
+.container {
+	width:100%;
+	border-bottom: solid 1px rgba(255, 255, 255, .5);
+}
+
+header {
+	width:100%;
+	height: 50px;
+	display : flex;
+	align-items : center;
+	justify-content: space-between;
+	
+	margin: auto;
+	padding: 0 20px;
+}

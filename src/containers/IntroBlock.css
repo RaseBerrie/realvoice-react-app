@@ -1,0 +1,39 @@
+@import url('https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css');
+
+#intro {
+	padding-top: 40px;
+	width:100%;
+}
+
+.info {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.info > .line {
+	margin: 30px 0 10px 0;
+	line-height: 50px;
+}
+
+.line > h2 {
+	font-family: 'NanumSquareExtraBold';
+	font-size:50px;
+	letter-spacing: .5px;
+}
+
+.line > h3 {
+	font-family: 'NanumSquareLight';
+	font-size:15px;
+	letter-spacing: 2.6px;
+	font-stretch: narrower;
+}
+
+.info > .exp {
+	margin: 0 0 70px;
+}
+
+.info > img {
+	height: 250px;
+	width: 250px;
+}
