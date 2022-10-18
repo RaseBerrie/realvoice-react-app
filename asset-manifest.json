@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/RealVoice_ewha/static/css/main.ad187439.css",
-    "main.js": "/RealVoice_ewha/static/js/main.e9b7074e.js",
-    "static/js/787.4a469494.chunk.js": "/RealVoice_ewha/static/js/787.4a469494.chunk.js",
-    "static/media/background.jpg": "/RealVoice_ewha/static/media/background.398905f8fa512cc54791.jpg",
-    "static/media/garet-book-webfont.woff": "/RealVoice_ewha/static/media/garet-book-webfont.8dc93fe4aba0c0855b36.woff",
-    "static/media/access.png": "/RealVoice_ewha/static/media/access.fccf5badee143070126a.png",
-    "static/media/github.png": "/RealVoice_ewha/static/media/github.987334e9f782cc505f25.png",
-    "static/media/speaker.png": "/RealVoice_ewha/static/media/speaker.52b53dfc35bd3161bbd9.png",
-    "index.html": "/RealVoice_ewha/index.html",
-    "main.ad187439.css.map": "/RealVoice_ewha/static/css/main.ad187439.css.map",
-    "main.e9b7074e.js.map": "/RealVoice_ewha/static/js/main.e9b7074e.js.map",
-    "787.4a469494.chunk.js.map": "/RealVoice_ewha/static/js/787.4a469494.chunk.js.map"
+    "main.css": "/realvoice-react-app/static/css/main.8c3cda47.css",
+    "main.js": "/realvoice-react-app/static/js/main.1a77d5ca.js",
+    "static/js/787.4a469494.chunk.js": "/realvoice-react-app/static/js/787.4a469494.chunk.js",
+    "static/media/background.jpg": "/realvoice-react-app/static/media/background.398905f8fa512cc54791.jpg",
+    "static/media/garet-book-webfont.woff": "/realvoice-react-app/static/media/garet-book-webfont.8dc93fe4aba0c0855b36.woff",
+    "static/media/access.png": "/realvoice-react-app/static/media/access.fccf5badee143070126a.png",
+    "static/media/github.png": "/realvoice-react-app/static/media/github.987334e9f782cc505f25.png",
+    "static/media/speaker.png": "/realvoice-react-app/static/media/speaker.52b53dfc35bd3161bbd9.png",
+    "index.html": "/realvoice-react-app/index.html",
+    "main.8c3cda47.css.map": "/realvoice-react-app/static/css/main.8c3cda47.css.map",
+    "main.1a77d5ca.js.map": "/realvoice-react-app/static/js/main.1a77d5ca.js.map",
+    "787.4a469494.chunk.js.map": "/realvoice-react-app/static/js/787.4a469494.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad187439.css",
-    "static/js/main.e9b7074e.js"
+    "static/css/main.8c3cda47.css",
+    "static/js/main.1a77d5ca.js"
   ]
 }
