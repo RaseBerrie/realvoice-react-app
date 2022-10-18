@@ -26,7 +26,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://RaseBerrie.github.io/RealVoice_ewha/",
+  "homepage": "https://RaseBerrie.github.io/realvoice-react-app/",
   "eslintConfig": {
     "extends": [
       "react-app",
