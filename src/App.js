@@ -6,7 +6,7 @@ import React from 'react';
 
 //Functions
 //import HandleFiles from './functions/HandleFiles';
-import Loading from './functions/Loading';
+import './functions/Loading.css';
 
 //Containers
 import TopContainer from './containers/TopContainer';
@@ -45,7 +45,7 @@ export const App = () => {
     setDragActive(false);
     if (e.dataTransfer.files) {
       isLoading(true);
-      //HandleFiles(e.dataTransfer.files);
+      //어떤 변수 = HandleFiles(e.dataTransfer.files);
     }
   };
 
@@ -53,7 +53,7 @@ export const App = () => {
     e.preventDefault();
     if (e.target.files) {
       isLoading(true);
-      //HandleFiles(e.target.files);
+      //어떤 변수 = HandleFiles(e.target.files);
     }
   };
 
@@ -75,6 +75,24 @@ export const App = () => {
       </label>
       { dragActive && <div id="drag-file-element" onDragEnter={handleDrag} onDragLeave={handleDrag} onDragOver={handleDrag} onDrop={handleDrop}></div> }
       </form>
+    )
+  }
+
+  function Loading() {       
+    return (
+        <>
+        <div className="loadclass">
+        <div className="preloader loading">
+            <span className="slice" />
+            <span className="slice" />
+            <span className="slice" />
+            <span className="slice" />
+            <span className="slice" />
+            <span className="slice" />
+        </div>
+        <h4 className="fn-font">입력받은 음성을 분석하는 중…….</h4>
+        </div>
+        </>
     )
   }
 
