@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/realvoice-react-app/static/css/main.aff2089a.css",
-    "main.js": "/realvoice-react-app/static/js/main.a0a023bc.js",
+    "main.js": "/realvoice-react-app/static/js/main.50b48519.js",
     "static/js/496.53ad3708.chunk.js": "/realvoice-react-app/static/js/496.53ad3708.chunk.js",
     "static/media/background.jpg": "/realvoice-react-app/static/media/background.398905f8fa512cc54791.jpg",
     "static/media/garet-book-webfont.woff": "/realvoice-react-app/static/media/garet-book-webfont.8dc93fe4aba0c0855b36.woff",
@@ -10,11 +10,11 @@
     "static/media/speaker.png": "/realvoice-react-app/static/media/speaker.52b53dfc35bd3161bbd9.png",
     "index.html": "/realvoice-react-app/index.html",
     "main.aff2089a.css.map": "/realvoice-react-app/static/css/main.aff2089a.css.map",
-    "main.a0a023bc.js.map": "/realvoice-react-app/static/js/main.a0a023bc.js.map",
+    "main.50b48519.js.map": "/realvoice-react-app/static/js/main.50b48519.js.map",
     "496.53ad3708.chunk.js.map": "/realvoice-react-app/static/js/496.53ad3708.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aff2089a.css",
-    "static/js/main.a0a023bc.js"
+    "static/js/main.50b48519.js"
   ]
 }
