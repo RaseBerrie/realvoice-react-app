@@ -12,7 +12,8 @@ function TopContainer() { return (
             fontFamily: '"Garet"',
             display: "inline",
             fontSize: 20,
-            paddingTop: 3
+            paddingTop: 3,
+            color: "white"
           }}
         >
           Real Voice
